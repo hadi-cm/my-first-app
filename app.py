@@ -1,27 +1,27 @@
 import streamlit as st
 
-st.set_page_config(page_title="Faz Fidar Parsian")
+st.set_page_config(page_title="فاز فیدار پارسیان", layout="centered")
 
-st.title("Faz Fidar Parsian")
-st.subheader("Engineering and Technology Services")
-
-st.divider()
-
-st.write("Welcome to Faz Fidar Parsian company.")
-st.write("We provide professional engineering services.")
+st.title("شرکت فاز فیدار پارسیان")
+st.subheader("خدمات مهندسی و فناوری")
 
 st.divider()
 
-st.header("Contact Us")
-name = st.text_input("Your Name")
-phone = st.text_input("Phone Number")
+st.write("به شرکت فاز فیدار پارسیان خوش آمدید.")
+st.write("ما ارائه دهنده خدمات تخصصی مهندسی در حوزه‌های مختلف هستیم.")
 
-if st.button("Send Request"):
+st.divider()
+
+st.header("با ما در ارتباط باشید")
+name = st.text_input("نام و نام خانوادگی")
+phone = st.text_input("شماره تماس")
+
+if st.button("ارسال درخواست"):
     if name and phone:
-        st.success("Thank you! We will contact you soon.")
+        st.success("سپاسگزاریم! درخواست شما ثبت شد و به‌زودی با شما تماس خواهیم گرفت.")
     else:
-        st.error("Please enter your name and phone number.")
+        st.error("لطفاً نام و شماره تماس خود را وارد کنید.")
 
 st.divider()
 
-st.info("Faz Fidar Parsian | Contact us for more information")
+st.info("فاز فیدار پارسیان | برای اطلاعات بیشتر با ما تماس بگیرید")
