@@ -2,7 +2,9 @@ import streamlit as st
 
 st.set_page_config(page_title="فاز فیدار پارسیان", layout="centered")
 
+st.image("logo.png", width=200)
 st.title("شرکت فاز فیدار پارسیان")
+st.write("شماره ثبت: ۶۳۳۷۷۳")
 st.subheader("خدمات مهندسی و فناوری")
 
 st.divider()
